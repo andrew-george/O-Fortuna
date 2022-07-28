@@ -1,0 +1,23 @@
+@use 'variables' as *;
+
+.logo {
+  font-family: $serif;
+  font-size: 3rem;
+  margin: 0;
+  padding: 1rem 2rem;
+}
+
+.title {
+  font-family: $serif;
+  font-size: 4rem;
+  margin: 1rem;
+}
+
+.description {
+  color: #aaa;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  line-height: 1.5rem;
+}

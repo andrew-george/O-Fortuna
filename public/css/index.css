@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Inter";
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+
+.container {
+  height: 75vh;
+  max-height: 85vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .generator-container {
+  margin-top: 3rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .copyright {
+  display: flex;
+  position: fixed;
+  bottom: 3%;
+  font-size: 0.6rem;
+  color: #aaa;
+  cursor: pointer;
+}
+.container .copyright span {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0 5px;
+}
+.container .copyright:hover {
+  color: #eee;
+}
+
+.logo {
+  font-family: "DM Serif Display";
+  font-size: 3rem;
+  margin: 0;
+  padding: 1rem 2rem;
+}
+
+.title {
+  font-family: "DM Serif Display";
+  font-size: 4rem;
+  margin: 1rem;
+}
+
+.description {
+  color: #aaa;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  line-height: 1.5rem;
+}
+
+.control-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.control-panel .buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.control-panel .buttons-container button {
+  background-color: black;
+  color: white;
+  padding: 0.7rem;
+  cursor: pointer;
+  border: 2px solid #111;
+  border-radius: 0 10px 10px 0;
+}
+.control-panel .buttons-container button:nth-child(1) {
+  border-radius: 10px 0px 0px 10px;
+}
+.control-panel .buttons-container button:nth-child(2) {
+  border-left: 1px solid #111;
+  border-right: 1px solid #111;
+  padding-inline: 10px;
+  border-radius: 0px;
+}
+.control-panel .buttons-container button:nth-child(3) {
+  border-radius: 0 10px 10px 0;
+  background-color: #111;
+}
+.control-panel input {
+  background-color: #070707;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0.7rem;
+  margin: 1rem;
+  text-align: center;
+}
+.control-panel input:focus-visible {
+  outline: none;
+}
+.control-panel input::-webkit-inner-spin-button, .control-panel input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+textarea {
+  background-color: #070707;
+  -webkit-backdrop-filter: blur(100px);
+          backdrop-filter: blur(100px);
+  border-radius: 20px;
+  height: 60%;
+  width: 90%;
+  margin: auto;
+  border: none;
+  resize: none;
+  color: white;
+  padding: 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  overflow: auto;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+textarea:focus {
+  outline: none;
+}
+textarea::-webkit-scrollbar {
+  width: 3px;
+}
+textarea::-webkit-scrollbar-track {
+  background: #222;
+}
+textarea::-webkit-scrollbar-thumb {
+  background: #888;
+}
+textarea::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}/*# sourceMappingURL=index.css.map */
